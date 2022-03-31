@@ -21,7 +21,7 @@ const handleClick = () => setClick(!click)
                 
                 </ul>
                 <div className='input-container'>
-                    <button className='btn'>Go to Wallet</button>
+                    <button className='btn'>Go to crypto Wallet</button>
                 </div>
                 <div className='hamburger' onClick={handleClick}>
                     {click ? (<FaTimes size={20} style={{color: '#333'}}/>) : (<FaBars size={20} style={{color: '#333'}} />)}
