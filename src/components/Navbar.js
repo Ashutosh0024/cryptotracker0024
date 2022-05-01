@@ -21,7 +21,7 @@ const handleClick = () => setClick(!click)
                 
                 </ul>
                 <div className='input-container'>
-                    <button onclick="location.href='https://google.com';"  className='btn'>Go to crypto Wallet</button>
+                    <button className='btn'><a href='https://wallet-demo-react.netlify.app/'>Go to crypto Wallet</a></button>
                 </div>
                 <div className='hamburger' onClick={handleClick}>
                     {click ? (<FaTimes size={20} style={{color: '#333'}}/>) : (<FaBars size={20} style={{color: '#333'}} />)}
